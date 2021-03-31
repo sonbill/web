@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #2f5d62;
+}
+
+.logo {
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+
+.nav-links {
+  display: flex;
+  width: 38%;
+  justify-content: space-around;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(204, 204, 204);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+/* .burger {
+  display: none;
+} */
+/* .burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(204, 204, 204);
+  margin: 3px;
+} */
+
+/* @media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 50%;
+  }
+} */
+
+/* @media screen and (max-width: 766px) {
+  nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #2f5d62;
+  }
+} */
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  background-color: blanchedalmond;
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+}
+
+.cover {
+  flex: 1;
+}
+
+.cta button {
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #364547;
+  padding: 10px;
+  cursor: pointer;
+  margin: 2px 4px;
+  text-align: center;
+}
